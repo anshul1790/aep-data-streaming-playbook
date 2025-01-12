@@ -30,11 +30,22 @@ cd <repository-directory>
 
 ### Step 2: Set Up Environment Variables
 Export environment variables for your shell session:
+Use this for these params
+https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication
 ```bash
-export POST_URL="<your_post_url>"
-export SANDBOX_NAME="<your_sandbox_name>"
-.....
-.....
+# # OAuth Creds
+export AUTH_URL="auth url to fetch bearer token"
+export CLIENT_ID="client id"
+export CLIENT_SECRET="client secret"
+
+# # AEP stream params
+export POST_URL="stream URL"
+export SANDBOX_NAME="sandbox name"
+export FLOW_ID="stream flow id"
+export SCHEMA_ID="data schema id"
+export IMS_ORG_ID="adobe org id"
+export DATASET_ID="data set id"
+export SOURCE_NAME="source"
 ```
 
 Alternatively, you can define these variables in a shell script and source them:
@@ -48,7 +59,7 @@ Install any necessary Python libraries (if applicable):
 pip install -r requirements.txt
 ```
 
-Or only install directly using
+Alternatively, install directly
 ```bash
 pip install requests
 ```

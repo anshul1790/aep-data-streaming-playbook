@@ -1,0 +1,8 @@
+# Ignore virtual environment directory and checkpoints
+/venv/
+/.ipynb_checkpoints
+
+# Ignore aep_sec.sh script and files
+/aep_sec.sh
+AEP HTTP DataStream.ipynb
+
