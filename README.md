@@ -140,4 +140,4 @@ Double-check the structure and values in your JSON input file. Ensure they confo
 ---
 
 ## Contact
-For questions or support, contact [Your Name] at [anshulchoudhary1790@gmail.com].
+For questions or support, contact me at [anshulchoudhary1790@gmail.com]
